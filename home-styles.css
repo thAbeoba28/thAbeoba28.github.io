@@ -1,0 +1,175 @@
+.top {
+    height: 110px;
+    background-color: #4a4a8f;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    color: #cccccc;
+}
+
+.topButton {
+    background-color: transparent;
+    border: none;
+    padding: 0px 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.topButton:hover {
+    text-decoration: underline;
+    background-color: #424280;
+    color: #cccccc;
+}
+
+
+
+.pads {
+    padding-top: 10px;
+}
+
+.middle-buttons button {
+
+    border-radius: 10px;
+    background-color: #4a4a8f;
+    color: #cccccc;
+    border: none;
+
+}
+
+body {
+    background-color: #6363bf;
+    background: linear-gradient(to bottom right, #6363bf, #a2c6eb);
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: #222;
+    border-color: #007bff;
+    font-size: 30px;
+    transition: background-color 0.6s ease;
+}
+
+
+.btn-primary:hover {
+    background-color: #5eb8bd;
+}
+
+.middle1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 100px);
+    margin: 0;
+    flex-direction: column;
+}
+
+.middle2 {
+    text-align: center; /* Center-align text */
+    margin-bottom: 10px; /* Bottom margin for spacing */
+}
+
+.middle3 {
+    text-align: center; /* Center-align text */
+    margin-bottom: 10px; /* Bottom margin for spacing */
+    padding: 10px;
+
+}
+
+.middle-button {
+    padding: 12px 24px;
+}
+
+.btn:active {
+    background-color: #5eb8bd;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.random1 {
+    transform: rotate(337deg);
+    position: absolute;
+    left: 10%;
+    top: 45%;
+}
+
+.random2 {
+    transform: rotate(18deg);
+    position: absolute;
+    left: 80%;
+    top: 65%;
+}
+
+.random3 {
+    transform: rotate(350deg);
+    position: absolute;
+    left: 55%;
+    top: 80%;
+}
+
+.random4 {
+    transform: rotate(22deg);
+    position: absolute;
+    left: 15%;
+    top: 75%;
+}
+
+.random5 {
+    transform: rotate(14deg);
+    position: absolute;
+    left: 70%;
+    top: 30%;
+}
+
+.hotkey-random {
+    text-decoration: none;
+    color: #eeeeee;
+}
+
+.hotkey-random:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+@keyframes grow {
+    from {
+        font-size: 0;
+    }
+    to {
+        font-size: 20px;
+    }
+}
+
+.lightspeed {
+    animation-name: grow;
+    animation-duration: 0.5s;
+}
+
+@media screen and (max-width: 600px) {
+    .hotkey-random {
+      visibility: hidden;
+      clear: both;
+      float: left;
+      margin: 10px auto 5px 20px;
+      width: 28%;
+      display: none;
+    }
+} /* I got from https://stackoverflow.com/questions/16550485/hide-div-tag-on-mobile-view-only. Text on the home screen doesnt fit correctly when the screen is small*/
+
+.nothing {
+    text-decoration: underline;
+    color: black;
+
+    cursor: default;
+}
+
+.nothing:hover {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+

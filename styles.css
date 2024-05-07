@@ -1,0 +1,83 @@
+.top {
+    height: 110px;
+    background-color: #4a4a8f;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    color: #cccccc;
+}
+
+.pads {
+    padding-top: 10px;
+}
+
+.top-buttons button {
+
+    border-radius: 10px;
+    background-color: #4a4a8f;
+    color: #cccccc;
+    border: none;
+}
+
+.topButton {
+    background-color: transparent;
+    border: none;
+    padding: 0px 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.topButton:hover {
+    text-decoration: underline;
+    background-color: #424280;
+    color: #cccccc;
+}
+
+
+body {
+    background-color: #8aa1db;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: #222;
+    border-color: #007bff;
+
+}
+
+
+.middle-button {
+    padding: 12px 24px;
+
+}
+
+.centerText {
+    width: 50%;
+    padding: 10px;
+}
+
+strong {
+    font-size: 18px;
+}
+
+.round {
+    border-radius: 100%;
+    font-size: 24px;
+    background-color: transparent;
+    border: none;
+    padding: 0px 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.round:hover {
+    text-decoration: underline;
+    background-color: #424280;
+    color: #cccccc;
+}
+
+
+#hiddenText {
+    visibility: hidden;
+}
+
+
