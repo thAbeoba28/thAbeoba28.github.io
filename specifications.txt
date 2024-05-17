@@ -1,0 +1,21 @@
+HTML tags
+1: p
+2: a
+3: button
+4: h4
+5: br
+6: h1
+7: div
+8: ul
+9: li
+10: strong
+
+CSS properties
+1: background-color
+2: cursor
+3: text-decoration
+4: color
+5: border
+
+I used containers from bootstrap to control how much of the screen my text takes up.
+I used javascript to make text visible that tells you what some of the words/abreveations mean when you click a button.
